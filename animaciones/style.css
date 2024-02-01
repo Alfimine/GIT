@@ -1,0 +1,98 @@
+body{
+    background-image: url(images/58827520-un-campo-de-fútbol-dibujado-sobre-un-fondo-de-la-hierba.jpg);
+    background-repeat: no-repeat;
+    background-size: 106%;
+    background-position-x: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.j1{
+    animation: 10s posicion;
+    position: fixed;
+    top: 27vw;
+    left: 6vw;
+}
+.j2{
+    animation: 8s aparicion, 10s 8s posicion;
+    position: fixed;
+    top: 40vw;
+    left: 20vw;
+}
+.j3{
+    animation: 16s aparicion, 10s 16s posicion;
+    position: fixed;
+    top: 16vw;
+    left: 20vw;
+}
+.j4{
+    animation: 24s aparicion, 10s 24s posicion;
+    position: fixed;
+    top: 50vw;
+    left: 32vw;
+}
+.j5{
+    animation: 29s aparicion, 10s 29s posicion;
+    position: fixed;
+    top: 35vw;
+    left: 32vw;
+}
+.j6{
+    animation: 37s aparicion, 10s 37s posicion;
+    position: fixed;
+    top: 10vw;
+    left: 32vw;
+}
+.j7{
+    animation: 45s aparicion, 10s 45s posicion;
+    position: fixed;
+    top: 22vw;
+    left: 32vw;
+}
+.j8{
+    animation: 53s aparicion, 10s 53s posicion;
+    position: fixed;
+    top: 45vw;
+    left: 45vw;
+}
+.j9{
+    animation: 61s aparicion, 10s 61s posicion;
+    position: fixed;
+    top: 30vw;
+    left: 45vw;
+}
+.j10{
+    animation: 69s aparicion, 10s 69s posicion;
+    position: fixed;
+    top: 15vw;
+    left: 45vw;
+}
+.j11{
+    animation: 77s aparicion, 10s 77s posicion;
+    position: fixed;
+    top: 30vw;
+    left: 60vw;
+}
+
+@keyframes posicion{
+    0%{
+        top: -10vw;
+        left: 43vw;
+    }
+    50%{
+        top: 27vw;
+        left: 43vw;
+        transform: scale(1.25);
+    }
+}
+
+@keyframes aparicion{
+    0%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
